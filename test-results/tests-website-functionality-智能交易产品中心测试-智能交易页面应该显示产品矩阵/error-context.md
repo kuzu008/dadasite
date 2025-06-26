@@ -1,0 +1,149 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation "Top":
+    - link "哒创科技官网 哒创科技官网":
+      - /url: /
+      - img "哒创科技官网"
+      - text: 哒创科技官网
+    - link "首页":
+      - /url: /
+    - text: 产品中心
+    - img
+    - link "智能行情 实时市场数据分析与智能预测":
+      - /url: /products/market-intelligence
+    - link "智能交易 自动化交易执行与风险控制":
+      - /url: /products/smart-trading
+    - link "智能资讯 AI驱动的资讯分析与研究报告":
+      - /url: /products/ai-research
+    - text: 解决方案
+    - img
+    - link "券商数字化转型 全面的数字化升级解决方案":
+      - /url: /solutions/digital-transformation
+    - link "财富管理赋能 AI驱动的智能投顾服务":
+      - /url: /solutions/wealth-management
+    - link "量化交易平台 高性能量化交易基础设施":
+      - /url: /solutions/quantitative-trading
+    - link "合规与风控 智能合规与风险管理系统":
+      - /url: /solutions/compliance-risk
+    - link "关于我们":
+      - /url: /about
+    - link "企业动态":
+      - /url: /news
+    - button "申请演示"
+    - button "联系我们"
+- main:
+  - text: ⚡
+  - heading "智能交易" [level=1]
+  - paragraph: Smart Trading
+  - paragraph: 基于人工智能算法的智能交易系统，提供自动化交易执行、智能风险控制和策略优化
+  - heading "产品矩阵" [level=2]
+  - paragraph: 从策略开发到交易执行，我们提供完整的智能交易解决方案
+  - text: 正式版 ⚡
+  - heading "算法交易系统" [level=3]
+  - paragraph: 专业的算法交易执行平台，支持多种交易策略和风险控制模式
+  - heading "核心特性" [level=4]
+  - list:
+    - listitem:
+      - img
+      - text: 多策略支持
+    - listitem:
+      - img
+      - text: 实时风控
+    - listitem:
+      - img
+      - text: 低延迟执行
+  - button "了解详情":
+    - link "了解详情":
+      - /url: /products/smart-trading/algo-trading
+  - button "预约演示"
+  - text: 正式版 ⚡
+  - heading "投资组合交易" [level=3]
+  - paragraph: 智能化的投资组合交易系统，支持多资产类别的统一交易管理
+  - heading "核心特性" [level=4]
+  - list:
+    - listitem:
+      - img
+      - text: 多资产支持
+    - listitem:
+      - img
+      - text: 智能再平衡
+    - listitem:
+      - img
+      - text: 组合优化
+  - button "了解详情":
+    - link "了解详情":
+      - /url: /products/smart-trading/portfolio-trading
+  - button "预约演示"
+- contentinfo:
+  - img "哒创科技官网"
+  - text: 哒创科技官网
+  - paragraph: 哒创科技是一家专注于为金融机构提供创新技术解决方案的领先企业，致力于通过数字化转型提升金融服务效率。
+  - img "微信公众号二维码"
+  - img
+  - heading "关注我们" [level=4]
+  - paragraph: 扫码关注微信公众号，获取最新资讯和产品动态
+  - heading "产品中心" [level=3]
+  - list:
+    - listitem:
+      - link "智能行情":
+        - /url: /products/market-intelligence
+    - listitem:
+      - link "智能交易":
+        - /url: /products/smart-trading
+    - listitem:
+      - link "智能资讯":
+        - /url: /products/ai-research
+  - heading "解决方案" [level=3]
+  - list:
+    - listitem:
+      - link "券商数字化转型":
+        - /url: /solutions/digital-transformation
+    - listitem:
+      - link "财富管理赋能":
+        - /url: /solutions/wealth-management
+    - listitem:
+      - link "量化交易平台":
+        - /url: /solutions/quantitative-trading
+    - listitem:
+      - link "合规与风控":
+        - /url: /solutions/compliance-risk
+  - heading "公司信息" [level=3]
+  - list:
+    - listitem:
+      - link "关于我们":
+        - /url: /about
+    - listitem:
+      - link "企业动态":
+        - /url: /news
+    - listitem:
+      - link "联系我们":
+        - /url: /contact
+    - listitem:
+      - link "隐私政策":
+        - /url: /privacy
+  - heading "联系我们" [level=3]
+  - img
+  - paragraph: 电话
+  - paragraph: 400-800-1234
+  - img
+  - paragraph: 邮箱
+  - paragraph: contact@ruisi-fintech.com
+  - img
+  - paragraph: 地址
+  - paragraph: 上海市浦东新区张江高科技园区科苑路88号
+  - paragraph: © 2025 AI金融科技有限公司. 保留所有权利.
+  - link "隐私政策":
+    - /url: /privacy
+  - link "服务条款":
+    - /url: /terms
+  - link "Cookie政策":
+    - /url: /cookies
+- alert
+- button "Open Next.js Dev Tools":
+  - img
+- button "Open issues overlay": 1 Issue
+- button "Collapse issues badge":
+  - img
+```
