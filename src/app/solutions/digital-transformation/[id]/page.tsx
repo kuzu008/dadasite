@@ -116,7 +116,7 @@ const SolutionDetailPage = () => {
                     <CardDescription>{relatedSolution.description}</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <Button variant="outline" className="w-full" asChild>
+                    <Button variant="outline" className="w-full">
                       <Link href={`/solutions/digital-transformation/${relatedSolution.id}`}>
                         了解详情
                       </Link>

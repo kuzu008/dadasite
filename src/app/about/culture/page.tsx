@@ -277,7 +277,7 @@ const CulturePage = () => {
               <Button size="lg" className="bg-blue-700 hover:bg-blue-800">
                 查看招聘职位
               </Button>
-              <Button variant="outline" size="lg" className="bg-white text-blue-600 border-white hover:bg-blue-50" asChild>
+              <Button variant="outline" size="lg" className="bg-white text-blue-600 border-white hover:bg-blue-50">
                 <Link href="/about/team">认识我们的团队</Link>
               </Button>
             </div>

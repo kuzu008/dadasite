@@ -62,7 +62,7 @@ const DigitalTransformationPage = () => {
           )}
           
           <div className="flex flex-col sm:flex-row gap-2 pt-4">
-            <Button className="flex-1" asChild>
+            <Button className="flex-1">
               <Link href={`/solutions/digital-transformation/${solution.id}`}>
                 了解详情
               </Link>

@@ -195,7 +195,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" className="w-full" asChild>
+                <Button variant="outline" className="w-full">
                   <Link href="/products/smart-trading">了解更多</Link>
                 </Button>
               </CardContent>
@@ -214,7 +214,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" className="w-full" asChild>
+                <Button variant="outline" className="w-full">
                   <Link href="/products#ai-research">了解更多</Link>
                 </Button>
               </CardContent>
@@ -249,7 +249,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" size="sm" className="w-full" asChild>
+                <Button variant="outline" size="sm" className="w-full">
                   <Link href="/solutions#digital-transformation">了解详情</Link>
                 </Button>
               </CardContent>
@@ -268,7 +268,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" size="sm" className="w-full" asChild>
+                <Button variant="outline" size="sm" className="w-full">
                   <Link href="/solutions#wealth-management">了解详情</Link>
                 </Button>
               </CardContent>
@@ -287,7 +287,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" size="sm" className="w-full" asChild>
+                <Button variant="outline" size="sm" className="w-full">
                   <Link href="/solutions#quant-trading">了解详情</Link>
                 </Button>
               </CardContent>
@@ -306,7 +306,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" size="sm" className="w-full" asChild>
+                <Button variant="outline" size="sm" className="w-full">
                   <Link href="/solutions#compliance">了解详情</Link>
                 </Button>
               </CardContent>
@@ -387,7 +387,7 @@ export default function Home() {
             
             {homepageData.clientCases.length > 3 && (
               <div className="text-center mt-12">
-                <Button variant="outline" asChild>
+                <Button variant="outline">
                   <Link href="/about#clients">查看更多案例</Link>
                 </Button>
               </div>
@@ -427,7 +427,7 @@ export default function Home() {
                     <p className="text-sm text-gray-600 line-clamp-3">
                       {news.summary}
                     </p>
-                    <Button variant="ghost" size="sm" className="mt-4 p-0 h-auto" asChild>
+                    <Button variant="ghost" size="sm" className="mt-4 p-0 h-auto">
                       <Link href={`/news/${news.id}`}>阅读更多 →</Link>
                     </Button>
                   </CardContent>
@@ -436,7 +436,7 @@ export default function Home() {
             </div>
             
             <div className="text-center mt-12">
-              <Button variant="outline" asChild>
+              <Button variant="outline">
                 <Link href="/news">查看更多动态</Link>
               </Button>
             </div>

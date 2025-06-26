@@ -75,7 +75,7 @@ const SolutionCenter = () => {
           <span className="text-sm text-gray-500">
             状态: <span className="text-green-600 font-medium">{solution.status}</span>
           </span>
-          <Button variant="outline" size="sm" asChild>
+          <Button variant="outline" size="sm">
             <Link href={`/solutions/${activeTab}/${solution.id}`}>
               了解详情
             </Link>
@@ -162,7 +162,7 @@ const SolutionCenter = () => {
               <p className="text-gray-600 max-w-2xl mx-auto mb-6">
                 {currentCategory.description}
               </p>
-              <Button asChild>
+              <Button>
                 <Link href={`/solutions/${activeTab}`}>
                   查看完整方案
                 </Link>

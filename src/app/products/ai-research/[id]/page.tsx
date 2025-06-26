@@ -98,7 +98,7 @@ const ProductDetailPage = () => {
                     <CardDescription>{relatedProduct.description}</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <Button variant="outline" className="w-full" asChild>
+                    <Button variant="outline" className="w-full">
                       <Link href={`/products/ai-research/${relatedProduct.id}`}>
                         了解详情
                       </Link>
