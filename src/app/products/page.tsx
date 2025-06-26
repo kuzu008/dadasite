@@ -10,7 +10,7 @@ import { Product } from '@/types/notion';
 
 const ProductCenter = () => {
   const [activeTab, setActiveTab] = useState('智能行情');
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
 
   const tabs = [
@@ -85,7 +85,7 @@ const ProductCenter = () => {
 
   const filteredProducts = products.filter(product => product.category === activeTab);
 
-  const ProductCard = ({ product }) => (
+  const ProductCard = ({ product }: { product: Product }) => (
     <Card className="p-6 h-full">
       <div className="flex flex-col h-full">
         <div className="flex-1">
@@ -126,7 +126,7 @@ const ProductCenter = () => {
     </Card>
   );
 
-  const EmptyState = ({ category }) => (
+  const EmptyState = ({ category }: { category: string }) => (
     <div className="text-center py-12">
       <div className="w-24 h-24 mx-auto mb-4 bg-gray-100 rounded-full flex items-center justify-center">
         <svg
